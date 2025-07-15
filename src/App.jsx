@@ -1,11 +1,10 @@
-import EditTask from "./components/EditTask"
 import Input from "./components/input"
 import TaskList from "./components/TaskList"
 
 const App = () => {
   return (
-    <div className="pt-50 flex justify-center">
-      <div className="flex flex-col space-y-3 w-[500px] h-[400px]">
+    <div className="pt-40 flex justify-center">
+      <div className="flex flex-col space-y-3 w-[500px] max-h-[400px] relative">
         <Input/>
         <TaskList/>
       </div>
