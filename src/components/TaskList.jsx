@@ -24,12 +24,12 @@ const TaskList = () => {
 
   return (
     <>
-      <div className="w-full h-[300px] overflow-y-auto border p-2">
+      <div className="max-w-full h-[300px] overflow-y-auto border px-0 md:p-2">
         <ul>
           {tasks.map((task) => (
             <li
               key={task.id}
-              className="flex items-center px-5 py-1 justify-between border-b"
+              className="flex items-center px-1 md:px-5 py-1 justify-between border-b"
             >
               <p
                 className={`cursor-pointer py-1 ${

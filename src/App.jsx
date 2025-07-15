@@ -3,8 +3,8 @@ import TaskList from "./components/TaskList"
 
 const App = () => {
   return (
-    <div className="pt-40 flex justify-center">
-      <div className="flex flex-col space-y-3 w-[500px] max-h-[400px] relative">
+    <div className="pt-40 flex justify-center md:px-0 px-2">
+    <div className="flex flex-col space-y-3 max-w-[500px] w-[500px] max-h-[400px] relative">
         <Input/>
         <TaskList/>
       </div>

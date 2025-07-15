@@ -30,7 +30,7 @@ const EditTask = ({ currentTask, onClose }) => {
   return (
     <div
       ref={wrapperRef}
-      className="w-[400px] h-full flex items-center justify-center"
+      className="max-w-[400px] h-full flex items-center justify-center"
     >
       <input
         className="w-full border border-r-0 outline-none py-1 px-2"
